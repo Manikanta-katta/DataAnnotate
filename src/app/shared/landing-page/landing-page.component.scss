@@ -1,0 +1,134 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css");
+
+.navbar-nav .nav-link {
+  font-weight: 500;
+}
+
+.nav-item {
+  margin: 0 8px;
+}
+
+.help-btn {
+  border: 1px solid #ccc;
+  border-radius: 20px;
+  background-color: #448087;
+  padding: 3px 25px;
+  font-size: 15px;
+  color: #fff;
+}
+
+.sign-in{
+  color: #2467AA;
+  border: none;
+  background: transparent;
+}
+
+.free-demo-btn {
+    border-radius: 20px;
+    padding: 10px 15px;
+    font-size: 15px;
+    font-weight: 500;
+    color: #a72037;
+    border: 1px solid #A72037;
+  }
+  .Signup-now{
+    color: #a72037;
+    border-radius: 20px;
+    padding: 10px 15px;
+    border: 1px solid #a72037;
+    background-color: #A72037;
+    font-size: 15px;
+}
+  .bg-color{
+    background-color: #F1F1F1;
+    padding: 10vh;
+  }
+
+
+  .right-arrow{
+    color: #A72037;
+    border: 2px solid #A72037;
+    border-radius: 60px 60px 60px 60px;
+    cursor: pointer;
+    text-align: center;
+  }
+
+//   ----------------
+
+.demo-btn{
+    color: #a72037;
+    border-radius: 50px;
+    padding: 10px 25px;
+    border: 1px solid #a72037;
+    font-size: 17px;
+}
+
+// analaysing data types
+.banner-color{
+  position: relative;
+  min-height:75vh;
+  width:100%;
+  background-color: #448087;
+}
+.learnB-bgColor{
+  position: relative;
+  width:100%;
+  background-color: #676767;
+}
+.learn-btn{
+  border-radius: 20px;
+  padding: 10px 35px;
+  border: 1px solid #a72037;
+  background-color: #A72037;
+  font-size: 15px;
+}
+
+.card{
+  height: 100%;
+  width: 100%;
+}
+
+
+.pricing{
+  background-color: #d7f1f5;
+  padding: 25px;
+}
+
+.navbg{
+  background-color: #fff;
+}
+
+
+
+// .demo-btn:hover{
+//     color: #fff;
+//     background-color: #A72037;
+// }
+
+// .Signup-nowbtn:hover{
+//     color: #fff;
+//     background-color: #A72037;
+// }
+
+
+@media screen and (max-width:768px) {
+
+   .demo-btn{
+    padding: 5px 15px;
+   }
+
+   .Signup-nowbtn{
+    padding: 5px 13px;
+   }
+
+   .iframe-video{
+    width: 200;
+    height: 200;
+   }
+   .business-icons{
+    margin-left: 2rem;
+   }
+
+}
+
+

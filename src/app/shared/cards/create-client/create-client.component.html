@@ -1,0 +1,148 @@
+<div class="conatiner">
+  <mat-panel-title>
+    <h2>Add a New Client</h2>
+  </mat-panel-title>
+  <form action="/action_page.php">
+    <div class="row m-0">
+      <div class="col-md-6">
+        <label for="client-name" class="form-label">Client Name <span class="star-mark"> *</span></label>
+        <input type="name" class="form-control" id="name">
+      </div>
+      <div class="col-md-6 mb-3">
+        <label for="name" class="form-label">PO Number <span class="star-mark"> *</span></label>
+        <input type="name" class="form-control" id="name">
+      </div>
+
+      <div class="col-md-6">
+        <label for="country" class="mb-1">Location <span class="star-mark">*</span></label>
+        <select class="form-select">
+          <option selected>Open this select menu</option>
+          <option value="1">One</option>
+          <option value="2">Two</option>
+          <option value="3">Three</option>
+        </select>
+      </div>
+      <div class="col-md-6">
+        <label for="country" class="mb-1">Conatct <span class="star-mark">*</span></label>
+        <select class="form-select">
+          <option selected>Select Contact</option>
+          <option value="1">One</option>
+          <option value="2">Two</option>
+          <option value="3">Three</option>
+        </select>
+      </div>
+    </div>
+  </form>
+  <div class="col-12 mt-3 text-end">
+    <button type="button" class="AddContact-btn" data-bs-toggle="collapse" data-bs-target="#collapseExample"
+      data-bs-target="#collapseClient"><img src="../../../../assets/images/manager-workflow-img.png" width="15px"> Add
+      new Contact </button>
+  </div>
+  <div class="collapse" id="collapseClient">
+    <div class="card card-body mt-3 clientBodyBg">
+      <h4>Add Contact</h4>
+      <form action="/action_page.php">
+        <div class="row m-0">
+          <div class="col-md-6">
+            <label for="client-name" class="form-label">Name <span class="star-mark"> *</span></label>
+            <input type="name" class="form-control" id="name" placeholder="Benjamin Brat">
+          </div>
+          <div class="col-md-6 mb-3">
+            <label for="name" class="form-label">Email <span class="star-mark"> *</span></label>
+            <input type="email" class="form-control" id="name" placeholder="benjamin.brat@amazon.com">
+          </div>
+
+          <div class="col-md-6 mb-3">
+            <label for="name" class="form-label">Phone <span class="star-mark"> *</span></label>
+            <input type="number" class="form-control" id="name" placeholder="+91 4566788790">
+          </div>
+
+          <div class="col-md-6">
+            <label for="country" class="mb-1">Department <span class="star-mark">*</span></label>
+            <select class="form-select">
+              <option selected>operations</option>
+              <option value="1">One</option>
+              <option value="2">Two</option>
+              <option value="3">Three</option>
+            </select>
+          </div>
+          <div class="d-grid gap-2 d-md-flex justify-content-md-end mt-2">
+            <button class="clientAddBtn" type="submit">Add</button>
+            <button class="clientCancelBtn" type="reset">Cancel</button>
+          </div>
+        </div>
+      </form>
+    </div>
+  </div>
+  <p class="Contacts mt-2">Contacts</p>
+
+  <table class="table table-hover">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Email</th>
+        <th>Phone</th>
+        <th>Department</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Brian Cooper</td>
+        <td>brian.cooper@amazon.com</td>
+        <td>+91 4456789761</td>
+        <td>Operations</td>
+        <td><img src="https://img.icons8.com/ios-glyphs/30/000000/edit--v1.png" width="20px"></td>
+        <td><img src="https://img.icons8.com/ios-glyphs/30/000000/filled-trash.png" width="20px"></td>
+      </tr>
+      <tr>
+        <td>Stephen Lim </td>
+        <td>stephen.lim@amazon.com</td>
+        <td>+91 4456789761</td>
+        <td>Marketing</td>
+        <td><img src="https://img.icons8.com/ios-glyphs/30/000000/edit--v1.png" width="20px"></td>
+        <td><img src="https://img.icons8.com/ios-glyphs/30/000000/filled-trash.png" width="20px"></td>
+      </tr>
+      <tr>
+        <td>Borris Johnson</td>
+        <td>borris.johnson@amazon.com</td>
+        <td>+91 4456789761</td>
+        <td>Operations</td>
+        <td><img src="https://img.icons8.com/ios-glyphs/30/000000/edit--v1.png" width="20px"></td>
+        <td><img src="https://img.icons8.com/ios-glyphs/30/000000/filled-trash.png" width="20px"></td>
+      </tr>
+      <tr>
+        <td>Adrian Moore</td>
+        <td>adrian.moore@amazon.com</td>
+        <td>+91 4456789761</td>
+        <td>Sales</td>
+        <td><img src="https://img.icons8.com/ios-glyphs/30/000000/edit--v1.png" width="20px"></td>
+        <td><img src="https://img.icons8.com/ios-glyphs/30/000000/filled-trash.png" width="20px"></td>
+      </tr>
+      <tr>
+        <td>Ben Afflek</td>
+        <td>ben.afflek@amazon.com</td>
+        <td>+91 4456789761</td>
+        <td>Engineering</td>
+        <td><img src="https://img.icons8.com/ios-glyphs/30/000000/edit--v1.png" width="20px"></td>
+        <td><img src="https://img.icons8.com/ios-glyphs/30/000000/filled-trash.png" width="20px"></td>
+      </tr>
+    </tbody>
+  </table>
+  <div class="row">
+    <div class="col-md-6 fieldMakrpr">
+      <p class="">Fields marked with <span class="star-mark"> * </span> are
+        mandatory</p>
+    </div>
+    <div class="col-md-6">
+  <footer  class="cancel-save-container">
+    <button class="cancel mat-button" mat-button="" type="reset" ng-reflect-type="reset"
+      ng-reflect-dialog-result="true">
+      <span class="mat-button-wrapper">Cancel</span>
+      <div class="mat-button-focus-overlay"></div>
+    </button><button class="submit mat-button" mat-button=""
+      type="submit" ng-reflect-disabled="false"><span class="mat-button-wrapper">Save</span>
+      <div class="mat-button-focus-overlay"></div>
+    </button></footer>
+  </div>
+</div>
+</div>

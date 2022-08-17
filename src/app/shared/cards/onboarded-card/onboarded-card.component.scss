@@ -1,0 +1,157 @@
+.show {
+  text-align: right;
+  margin-top: -32px;
+  color: #6A707E;
+  float: right;
+}
+
+.month {
+  color: skyblue;
+}
+
+.percentage {
+  font-weight: 700;
+  font-size: xxx-large;
+  border-radius: 200px;
+  width: 159px;
+  height: 156.5px;
+  left: 37px;
+  top: 79px;
+  border: 7px solid #F0F0F0;
+  padding: 41px;
+}
+
+.user-icon {
+  width: 130px;
+  height: 130px;
+  position: relative;
+}
+
+.completed {
+  color: #2E7D32;
+  margin-left: -21px;
+}
+
+.your-profile {
+  background-color: #A72037;
+  color: white;
+  border-radius: 40px;
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 38px;
+  width: 80%;
+
+}
+
+.Not-documented {
+  text-align: right;
+}
+
+.per {
+  text-align: left;
+  margin-left: -21px;
+}
+
+.perc {
+  text-align: right;
+}
+
+.Time-spent {
+  text-align: left;
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.percentage-2 {
+  text-align: left;
+  font-weight: 700;
+  font-size: xxx-large;
+  border: #F0F0F0;
+  border-radius: 50px;
+}
+
+.percentage-1 {
+  text-align: center;
+  font-weight: 700;
+  font-size: xxx-large;
+  border: #F0F0F0;
+  border-radius: 50px;
+
+}
+
+.available-1 {
+  text-align: left;
+  color: #BAB9BD;
+}
+
+.available {
+  text-align: center;
+  color: #BAB9BD;
+}
+
+.line {
+  position: absolute;
+  height: 1px;
+  left: -22px;
+  right: -17px;
+  top: 15px;
+  background: #EBEFF2;
+}
+
+.Programs {
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.card-body {
+  padding: 20px;
+  width: 100%;
+}
+
+.dropdown {
+  margin-top: -6px;
+
+}
+
+.no-users {
+  text-align: center;
+  padding: 160px;
+  color: #BAB9BD;
+}
+
+.active {
+  margin-bottom: 0rem;
+}
+
+.workflow-btn {
+  color: #448087;
+  border: 0.1rem solid #448087;
+  border-radius: 20px;
+}
+
+.empty {
+  position: absolute;
+  width: 408px;
+  height: 1px;
+  background: #EBEFF2;
+  margin-top: 9px;
+}
+
+.Configure-client{
+  text-align: left;
+}
+
+
+
+
+@media screen and (max-width:768px) {
+
+  .demo-btn{
+   padding: 5px 15px;
+  }
+
+  .Signup-nowbtn{
+   padding: 5px 13px;
+  }
+
+}

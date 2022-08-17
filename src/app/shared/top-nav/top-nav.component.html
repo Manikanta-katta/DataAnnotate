@@ -1,0 +1,26 @@
+<mat-toolbar class="topnav-bg">
+     <a class="navbar-brand" href="#">
+    <img class="ptglogo" src="../assets/images/people-tech-logo.png" width="80%" /></a>
+    <span class="menu-spacer">
+      <a mat-button [routerLink]="'/accounts'"> Task </a>
+      <a mat-button [routerLink]="'/create-account'"> Users </a>
+      <a mat-button [routerLink]="'/contacts'"> Help & Support </a>
+    </span>
+ <ng-container *ngIf="authService.currentUser$ | async as user; else loginButton">
+   <button  mat-button [mat-menu-trigger-for]="userMenu" class="userbtn text-dark">
+    {{user.email}}
+    <mat-icon>account_circle</mat-icon>
+     <mat-icon>expand_more</mat-icon>
+    </button>
+ </ng-container>
+
+ <ng-template #loginButton>
+  <button  mat-button routerLink="/custom-login">
+   <mat-icon>login</mat-icon>
+   Login
+  </button>
+ </ng-template>
+ </mat-toolbar>
+ <mat-menu #userMenu="matMenu">
+   <button mat-menu-item (click)="logout()">logout</button>
+ </mat-menu>

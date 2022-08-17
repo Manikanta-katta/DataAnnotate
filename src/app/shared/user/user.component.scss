@@ -1,0 +1,59 @@
+
+.page{
+  background-color:#f9f9f9 ;
+}
+.progress-space{
+  display: flex;
+  justify-content: space-between;
+}
+.buttonadd{
+  border-radius: 18px;
+  height: 25px;
+  width: 140px;
+  padding: 1px;
+}
+.buttoncat{
+  border-radius: 18px;
+  height: 25px;
+  width: 140px;
+  padding: 1px;
+}
+.blockbtn{
+  border-radius: 18px;
+  height: 25px;
+  width: 110px;
+  padding: 1px;
+}
+.head-row{
+
+  background-color: #f0f0f0;
+}
+.circle{
+  border: solid 4px rgb(220, 213, 213);
+ border-radius: 120px;
+ height: 150px;
+ width: 150px;
+ display: flex;
+ justify-content: center;
+ padding: 55px;
+}
+.month{
+  color: rgb(33, 178, 235);
+}
+.dropcol{
+  display: flex;
+  margin-top: -10px;
+  margin-left: 15px;
+}
+.onboard{
+  background-color: rgb(116, 182, 230);
+  border: solid 1px   rgb(8, 141, 236);
+  border-radius: 10px;
+  padding: 2px;
+  height: 25px;
+  width: 100px;
+  text-align: center;
+  color: rgb(8, 141, 236);
+
+}
+
